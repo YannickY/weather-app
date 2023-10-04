@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.logo{
+  width: 30%;
+  position: absolute;
+  top: 85%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: normal;
+  align-content: stretch;
+
+
+}
+
+.child1 {
+
+  padding: 50px;
+  width: 788px;
+  height: 80px
+}
+
+
+
+.city {
+  width: 30%;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+
+}
+
+.currentTemp {
+
+  width: 30%;
+  position: absolute;
+  top: -80%;
+  left: 0%;
+  padding-left: 90%;
+  transform: translate(-50%, -50%);
+
+}
+
+.metrics {
+  width: 30%;
+  position: absolute;
+  top: -80%;
+  left: 150%;
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-items: flex-start;
+align-content: flex-start;
+
+}
